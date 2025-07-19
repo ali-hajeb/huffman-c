@@ -126,7 +126,7 @@ Every compressed file, containes a header, which includes these information.
 - Table size - 1 Byte
 - Frequency table - (Table size * 2) Bytes
 - Encoded data
-- Total bit count - last 8 bytes
+- Remaining bit count - last byte
 
 In order to store the table size in 1 byte, the saved value is decreased by 1.
 
